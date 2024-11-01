@@ -1,0 +1,113 @@
+Classifier: weka.classifiers.trees.REPTree
+Options: default
+Classifier build time (HH:mm:ss): 0:00:22.238074
+Evaluation time (HH:mm:ss): 4:26:52.159145
+
+
+REPTree
+============
+
+diagnosis_category = INJURY
+|   departure_referral = specialist : False (586586/242032) [293210/120590]
+|   departure_referral = unknown : False (26922/12639) [13262/6333]
+|   departure_referral = no_referral : False (40726/16725) [20532/8338]
+|   departure_referral = ED_review : True (45481/13447) [22519/6632]
+diagnosis_category = INFECTION
+|   departure_referral = specialist : False (140517/67151) [70130/33840]
+|   departure_referral = unknown : True (5461/2428) [2572/1173]
+|   departure_referral = no_referral : False (12464/5757) [6164/2850]
+|   departure_referral = ED_review : True (9243/2565) [4620/1336]
+diagnosis_category = RESPIRATORY
+|   departure_referral = specialist : False (276694/130313) [138173/65365]
+|   departure_referral = unknown : False (8009/3769) [4158/2048]
+|   departure_referral = no_referral : False (17602/7970) [8876/4091]
+|   departure_referral = ED_review : True (10560/4356) [5210/2179]
+diagnosis_category = SKIN
+|   departure_referral = specialist : True (149148/74241) [75208/37600]
+|   departure_referral = unknown : True (7176/3066) [3674/1556]
+|   departure_referral = no_referral : False (10382/4977) [5133/2505]
+|   departure_referral = ED_review : True (15668/3433) [7921/1724]
+diagnosis_category = MSK
+|   departure_referral = specialist : False (242879/106954) [121617/53586]
+|   departure_referral = unknown : False (14247/6890) [7151/3406]
+|   departure_referral = no_referral : False (13792/6563) [6984/3257]
+|   departure_referral = ED_review : True (13500/4334) [6710/2101]
+diagnosis_category = NEURO
+|   departure_referral = specialist : False (161979/74917) [80301/37165]
+|   departure_referral = unknown : True (4211/1938) [2063/963]
+|   departure_referral = no_referral : True (7156/3438) [3536/1692]
+|   departure_referral = ED_review : True (3655/1405) [1850/700]
+diagnosis_category = ABDO : True (462587/224361) [231294/112004]
+diagnosis_category = ADMIN : True (132279/49963) [65920/24998]
+diagnosis_category = IATROGENIC : True (9891/4211) [4869/2094]
+diagnosis_category = ENT_EYE_MOUTH
+|   departure_referral = specialist : False (184995/80540) [92690/40224]
+|   departure_referral = unknown : False (9966/4747) [4865/2322]
+|   departure_referral = no_referral : False (15158/6238) [7683/3229]
+|   departure_referral = ED_review : True (21101/7599) [10526/3961]
+diagnosis_category = MENTAL_HEALTH : True (141380/52080) [70694/26202]
+diagnosis_category = CARDIOVASCULAR
+|   departure_referral = specialist : False (264758/119620) [132626/60051]
+|   departure_referral = unknown : False (5700/2822) [2787/1363]
+|   departure_referral = no_referral : False (8290/4104) [4096/2051]
+|   departure_referral = ED_review : True (5491/1899) [2732/981]
+diagnosis_category = HAEM_ONC : True (32321/13712) [16273/6857]
+diagnosis_category = SOCIAL : True (22251/7552) [11057/3719]
+diagnosis_category = OBS_GYNAE : True (84338/38072) [41942/19019]
+diagnosis_category = URINARY : True (156106/68180) [77959/34162]
+diagnosis_category = MEDICAL_PROCEDURE : True (10666/2457) [5459/1293]
+diagnosis_category = UNCLASSIFIED : True (11405/4964) [5813/2529]
+diagnosis_category = ORTHO/RHEUM : True (38394/15367) [19258/7667]
+diagnosis_category = TOX : True (77697/21600) [38878/10834]
+diagnosis_category = UNWELL_GENERAL : True (59821/26186) [30239/13151]
+diagnosis_category = ENDO : True (15442/7275) [7741/3554]
+diagnosis_category = NEONATAL_OTHER
+|   departure_referral = specialist : False (339/165) [181/92]
+|   departure_referral = unknown : True (14/7) [7/2]
+|   departure_referral = no_referral : False (90/36) [43/24]
+|   departure_referral = ED_review : True (13/5) [7/2]
+diagnosis_category = PATIENT_CARE
+|   departure_referral = specialist : True (371/156) [229/110]
+|   departure_referral = unknown : True (44/18) [22/8]
+|   departure_referral = no_referral : False (68/33) [37/15]
+|   departure_referral = ED_review : True (30/7) [20/5]
+diagnosis_category = RHEUM*&*** : False (39/13) [29/15]
+diagnosis_category = ENVIRONMENTAL : False (5/0) [4/3]
+
+Size of the tree : 67
+
+
+Correctly Classified Instances     1929639               60.369  %
+Incorrectly Classified Instances   1266768               39.631  %
+Kappa statistic                          0.0977
+Mean absolute error                      0.4866
+Root mean squared error                  0.4925
+Relative absolute error                 97.3227 %
+Root relative squared error             98.502  %
+Total Number of Instances          3196407     
+
+AUC: 0.5877370410003463 (95% CI: 0.588 - 0.588)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.632    0.503    0.825      0.632    0.716      0.108    0.588     0.826     False
+                 0.497    0.368    0.265      0.497    0.346      0.108    0.588     0.278     True
+Weighted Avg.    0.604    0.475    0.707      0.604    0.638      0.108    0.588     0.711     
+
+[[1594863.  927461.]
+ [ 339307.  334776.]]
+
+Class 0 details
+Area under ROC: 0.587731511659841
+False negatives: 927461.0
+True negatives: 334776.0
+False positives: 339307.0
+True positives: 1594863.0
+
+Class 1 details
+Area under ROC: 0.587731511659841
+False negatives: 339307.0
+True negatives: 1594863.0
+False positives: 927461.0
+True positives: 334776.0
+

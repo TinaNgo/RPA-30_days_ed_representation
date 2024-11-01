@@ -1,0 +1,125 @@
+Classifier: weka.classifiers.functions.MultilayerPerceptron
+Options: -H 1 -N 200
+Classifier build time (HH:mm:ss): 1:17:37.204843
+Evaluation time (HH:mm:ss): 4:06:40.389528
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    0.9055213249292791
+    Node 2    0.8992999329166639
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.9055213249292788
+    Node 2    -0.8992999329166637
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    1.9651511176185894
+    Attrib age=46-65    -43.685052839318615
+    Attrib age=26-45    -33.99364792824464
+    Attrib age=0-5    132.15253104880162
+    Attrib age=16-25    -13.438518465537316
+    Attrib age=66-85    -52.168963130250596
+    Attrib age=6-15    53.14992989658936
+    Attrib age=86+    -51.86623251616728
+    Attrib presentation_time=business hours    1.2370555186914625
+    Attrib presentation_time=evening    -2.6412298217601338
+    Attrib presentation_time=night    -0.4331402835200584
+    Attrib sex=F    3.313927895641044
+    Attrib sex=M    -6.229668143564615
+    Attrib sex=other    1.0618219893650918
+    Attrib source_referral=self/family/friends    8.817236447893238
+    Attrib source_referral=community_org    -50.803072224986614
+    Attrib source_referral=other    8.713186691320413
+    Attrib source_referral=clinic    9.035894451196468
+    Attrib source_referral=hospital    18.48217855530909
+    Attrib departure_referral=specialist    46.79400437934032
+    Attrib departure_referral=unknown    40.00448928055383
+    Attrib departure_referral=no_referral    44.071752911565625
+    Attrib departure_referral=ED_review    -134.73026684623395
+    Attrib preferred_language=english    -38.63330091101831
+    Attrib preferred_language=asian    24.01574009188311
+    Attrib preferred_language=middle eastern    18.075302406666488
+    Attrib preferred_language=european    -35.34189605689674
+    Attrib preferred_language=other    -33.33267956743165
+    Attrib preferred_language=none    57.521228357901165
+    Attrib arrival_mode=private_vehicle    17.359629531804547
+    Attrib arrival_mode=ambulance    -36.191950315824776
+    Attrib arrival_mode=other    16.874925019684834
+    Attrib separation_mode=admitted    59.70002627888456
+    Attrib separation_mode=released    -6.70566876794365
+    Attrib separation_mode=left_against_advice    -64.44979379620277
+    Attrib separation_mode=died/other    7.571213951451089
+    Attrib triage_category=two    -9.101304501468757
+    Attrib triage_category=three    -14.47775947970942
+    Attrib triage_category=four    -15.296704457796437
+    Attrib triage_category=five    -28.886670524361154
+    Attrib triage_category=one    61.967696171068994
+    Attrib diagnosis_category=INJURY    53.77052335716195
+    Attrib diagnosis_category=INFECTION    -6.586235859244294
+    Attrib diagnosis_category=RESPIRATORY    28.865704944763664
+    Attrib diagnosis_category=SKIN    -10.167004865087337
+    Attrib diagnosis_category=MSK    44.56196074582003
+    Attrib diagnosis_category=NEURO    53.596804892689185
+    Attrib diagnosis_category=ABDO    -7.757345263477609
+    Attrib diagnosis_category=ADMIN    -21.99965688092509
+    Attrib diagnosis_category=IATROGENIC    -23.505423973871473
+    Attrib diagnosis_category=ENT_EYE_MOUTH    78.54579046084406
+    Attrib diagnosis_category=MENTAL_HEALTH    -79.19107526894871
+    Attrib diagnosis_category=CARDIOVASCULAR    55.62831010197735
+    Attrib diagnosis_category=HAEM_ONC    -19.88490236776063
+    Attrib diagnosis_category=SOCIAL    -49.08771677863834
+    Attrib diagnosis_category=OBS_GYNAE    -8.918540968121826
+    Attrib diagnosis_category=URINARY    -16.56666596739078
+    Attrib diagnosis_category=MEDICAL_PROCEDURE    -28.095824803332313
+    Attrib diagnosis_category=UNCLASSIFIED    -6.945783505277142
+    Attrib diagnosis_category=ORTHO/RHEUM    -15.628431369689697
+    Attrib diagnosis_category=TOX    -49.45486390619755
+    Attrib diagnosis_category=UNWELL_GENERAL    -14.231994065978604
+    Attrib diagnosis_category=ENDO    -12.123234966924988
+    Attrib diagnosis_category=NEONATAL_OTHER    3.8630285433636677
+    Attrib diagnosis_category=PATIENT_CARE    5.510810073942083
+    Attrib diagnosis_category=RHEUM*&***    0.9110579140772461
+    Attrib diagnosis_category=ENVIRONMENTAL    -1.583286200840973
+Class False
+    Input
+    Node 0
+Class True
+    Input
+    Node 1
+
+
+
+Correctly Classified Instances     2522324               78.9112 %
+Incorrectly Classified Instances    674083               21.0888 %
+Kappa statistic                          0     
+Mean absolute error                      0.3002
+Root mean squared error                  0.4059
+Relative absolute error                 90.1954 %
+Root relative squared error             99.5089 %
+Total Number of Instances          3196407     
+
+AUC: 0.5794784867464814 (95% CI: 0.579 - 0.579)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.789      1.000    0.882      ?        0.579     0.818     False
+                 0.000    0.000    ?          0.000    ?          ?        0.579     0.266     True
+Weighted Avg.    0.789    0.789    ?          0.789    ?          ?        0.579     0.701     
+
+[[2522324.       0.]
+ [ 674083.       0.]]
+
+Class 0 details
+Area under ROC: 0.57900696579481
+False negatives: 0.0
+True negatives: 0.0
+False positives: 674083.0
+True positives: 2522324.0
+
+Class 1 details
+Area under ROC: 0.5794714440503925
+False negatives: 674083.0
+True negatives: 2522324.0
+False positives: 0.0
+True positives: 0.0
+

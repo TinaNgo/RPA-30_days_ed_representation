@@ -1,0 +1,105 @@
+repres30days  false   true    All
+age                              
+0-5            9388   2004  11392
+16-25         10059   3107  13166
+26-45         16912   5007  21919
+46-65         14507   3908  18415
+6-15           7689   1430   9119
+66-85         12741   3786  16527
+86+            3413    934   4347
+All           74709  20176  94885 
+
+repres30days       false   true    All
+presentation_time                     
+business hours     40963  10568  51531
+evening            22255   6334  28589
+night              11491   3274  14765
+All                74709  20176  94885 
+
+repres30days  false   true    All
+sex                              
+F             36892   9796  46688
+M             37814  10380  48194
+other             3      0      3
+All           74709  20176  94885 
+
+repres30days         false   true    All
+source_referral                         
+clinic                5197   1142   6339
+community_org         1472    538   2010
+hospital               860    230   1090
+other                  868    290   1158
+self/family/friends  66312  17976  84288
+All                  74709  20176  94885 
+
+repres30days        false   true    All
+departure_referral                     
+ED_review            2205   1308   3513
+no_referral          4592   1390   5982
+specialist          65467  16645  82112
+unknown              2445    833   3278
+All                 74709  20176  94885 
+
+repres30days        false   true    All
+preferred_language                     
+asian                2321    464   2785
+english             65755  18078  83833
+european             3857    936   4793
+middle eastern       1503    433   1936
+none                  281     47    328
+other                 992    218   1210
+All                 74709  20176  94885 
+
+repres30days     false   true    All
+arrival_mode                        
+ambulance        15775   4966  20741
+other             3488    922   4410
+private_vehicle  55446  14288  69734
+All              74709  20176  94885 
+
+repres30days         false   true    All
+separation_mode                         
+admitted             22241   5819  28060
+died/other              54      0     54
+left_against_advice   2465   1095   3560
+released             49949  13262  63211
+All                  74709  20176  94885 
+
+repres30days     false   true    All
+triage_category                     
+five              8460   2468  10928
+four             31166   7941  39107
+one                494    120    614
+three            25032   7058  32090
+two               9557   2589  12146
+All              74709  20176  94885 
+
+repres30days        false   true    All
+diagnosis_category                     
+ABDO                 9479   2707  12186
+ADMIN                2045    780   2825
+CARDIOVASCULAR       6366   1561   7927
+ENDO                  295    118    413
+ENT_EYE_MOUTH        5315   1203   6518
+HAEM_ONC              561    197    758
+IATROGENIC            171     82    253
+INFECTION            3557    988   4545
+INJURY              16484   3320  19804
+MEDICAL_PROCEDURE      94     46    140
+MENTAL_HEALTH        2210   1219   3429
+MSK                  6422   1431   7853
+NEONATAL_OTHER         17      3     20
+NEURO                3863    982   4845
+OBS_GYNAE            1598    560   2158
+ORTHO/RHEUM           613    297    910
+PATIENT_CARE            8      3     11
+RESPIRATORY          6636   1593   8229
+RHEUM*&***              3      0      3
+SKIN                 3683   1087   4770
+SOCIAL                310    117    427
+TOX                   895    371   1266
+UNCLASSIFIED          217     75    292
+UNWELL_GENERAL       1105    356   1461
+URINARY              2762   1080   3842
+All                 74709  20176  94885 
+

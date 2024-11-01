@@ -1,0 +1,12 @@
+Evaluation/RESAMPLED/NO_FS/
+Evaluation/RESAMPLED/CFS/
+Evaluation/RESAMPLED/InfoGain/
+Evaluation/RESAMPLED/Manual_FS/
+
+Evaluation/NOT_RESAMPLED/NO_FS/
+Evaluation/NOT_RESAMPLED/CFS/
+Evaluation/NOT_RESAMPLED/InfoGain/
+Evaluation/NOT_RESAMPLED/Manual_FS/
+
+------------------
+

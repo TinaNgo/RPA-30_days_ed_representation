@@ -1,0 +1,57 @@
+Classifier: weka.classifiers.bayes.BayesNet
+Options: default
+Classifier build time (HH:mm:ss): 0:00:20.095228
+Evaluation time (HH:mm:ss): 3:37:27.044022
+
+Bayes Network Classifier
+Using ADTree
+#attributes=6 #classindex=5
+Network structure (nodes followed by parents)
+diagnosis_category(26): repres30days 
+departure_referral(4): repres30days 
+age(7): repres30days 
+triage_category(5): repres30days 
+separation_mode(4): repres30days 
+repres30days(2): 
+LogScore Bayes: -4.2137106971253775E7
+LogScore BDeu: -4.213738770310364E7
+LogScore MDL: -4.213737178426855E7
+LogScore ENTROPY: -4.213672851145606E7
+LogScore AIC: -4.213681151145606E7
+
+
+
+Correctly Classified Instances     1997736               62.4994 %
+Incorrectly Classified Instances   1198671               37.5006 %
+Kappa statistic                          0.1105
+Mean absolute error                      0.4804
+Root mean squared error                  0.4904
+Relative absolute error                 96.0807 %
+Root relative squared error             98.0866 %
+Total Number of Instances          3196407     
+
+AUC: 0.5968411626173783 (95% CI: 0.597 - 0.597)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.665    0.525    0.826      0.665    0.737      0.119    0.597     0.834     False
+                 0.475    0.335    0.275      0.475    0.348      0.119    0.597     0.298     True
+Weighted Avg.    0.625    0.485    0.710      0.625    0.655      0.119    0.597     0.721     
+
+[[1677607.  844717.]
+ [ 353954.  320129.]]
+
+Class 0 details
+Area under ROC: 0.5968419482855093
+False negatives: 844717.0
+True negatives: 320129.0
+False positives: 353954.0
+True positives: 1677607.0
+
+Class 1 details
+Area under ROC: 0.5968419482855093
+False negatives: 353954.0
+True negatives: 1677607.0
+False positives: 844717.0
+True positives: 320129.0
+

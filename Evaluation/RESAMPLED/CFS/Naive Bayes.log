@@ -1,0 +1,84 @@
+Classifier: weka.classifiers.bayes.NaiveBayes
+Options: default
+Classifier build time (HH:mm:ss): 0:00:02.673946
+Evaluation time (HH:mm:ss): 3:48:47.846225
+
+Naive Bayes Classifier
+
+                          Class
+Attribute                 False      True
+                          (0.5)     (0.5)
+==========================================
+departure_referral
+  specialist           2363505.0 2216673.0
+  unknown                90559.0  109008.0
+  no_referral           166281.0  191328.0
+  ED_review              75990.0  179326.0
+  [total]              2696335.0 2696335.0
+
+diagnosis_category
+  INJURY                594661.0  454579.0
+  INFECTION             127180.0  123993.0
+  RESPIRATORY           246492.0  222792.0
+  SKIN                  129654.0  144658.0
+  MSK                   232450.0  194432.0
+  NEURO                 140335.0  124418.0
+  ABDO                  336366.0  357517.0
+  ADMIN                  74962.0  123239.0
+  IATROGENIC              6306.0    8456.0
+  ENT_EYE_MOUTH         189618.0  157368.0
+  MENTAL_HEALTH          78283.0  133793.0
+  CARDIOVASCULAR        231127.0  195355.0
+  HAEM_ONC               20570.0   28026.0
+  SOCIAL                 11272.0   22038.0
+  OBS_GYNAE              57092.0   69190.0
+  URINARY               102343.0  131724.0
+  MEDICAL_PROCEDURE       3751.0   12376.0
+  UNCLASSIFIED            7494.0    9726.0
+  ORTHO/RHEUM            23035.0   34619.0
+  TOX                    32435.0   84142.0
+  UNWELL_GENERAL         39338.0   50724.0
+  ENDO                   10830.0   12355.0
+  NEONATAL_OTHER           353.0     343.0
+  PATIENT_CARE             362.0     461.0
+  RHEUM*&***                41.0      29.0
+  ENVIRONMENTAL              7.0       4.0
+  [total]              2696357.0 2696357.0
+
+
+
+
+Correctly Classified Instances     2099222               65.6744 %
+Incorrectly Classified Instances   1097185               34.3256 %
+Kappa statistic                          0.1069
+Mean absolute error                      0.4862
+Root mean squared error                  0.4922
+Relative absolute error                 97.2439 %
+Root relative squared error             98.4334 %
+Total Number of Instances          3196407     
+
+AUC: 0.5870596709886611 (95% CI: 0.587 - 0.587)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.726    0.603    0.818      0.726    0.769      0.110    0.587     0.826     False
+                 0.397    0.274    0.279      0.397    0.328      0.110    0.587     0.284     True
+Weighted Avg.    0.657    0.533    0.705      0.657    0.676      0.110    0.587     0.711     
+
+[[1831344.  690980.]
+ [ 406205.  267878.]]
+
+Class 0 details
+Area under ROC: 0.5870632809221388
+False negatives: 690980.0
+True negatives: 267878.0
+False positives: 406205.0
+True positives: 1831344.0
+
+Class 1 details
+Area under ROC: 0.5870632809221388
+False negatives: 406205.0
+True negatives: 1831344.0
+False positives: 690980.0
+True positives: 267878.0
+

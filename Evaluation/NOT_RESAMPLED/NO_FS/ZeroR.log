@@ -1,0 +1,42 @@
+Classifier: weka.classifiers.rules.ZeroR
+Options: default
+Classifier build time (HH:mm:ss): 0:00:02.548343
+Evaluation time (HH:mm:ss): 4:09:45.198283
+
+ZeroR predicts class value: False
+
+
+Correctly Classified Instances     2522324               78.9112 %
+Incorrectly Classified Instances    674083               21.0888 %
+Kappa statistic                          0     
+Mean absolute error                      0.3328
+Root mean squared error                  0.4079
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances          3196407     
+
+AUC: 0.5 (95% CI: 0.500 - 0.500)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.789      1.000    0.882      ?        0.500     0.789     False
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.211     True
+Weighted Avg.    0.789    0.789    ?          0.789    ?          ?        0.500     0.667     
+
+[[2522324.       0.]
+ [ 674083.       0.]]
+
+Class 0 details
+Area under ROC: 0.5
+False negatives: 0.0
+True negatives: 0.0
+False positives: 674083.0
+True positives: 2522324.0
+
+Class 1 details
+Area under ROC: 0.5
+False negatives: 674083.0
+True negatives: 2522324.0
+False positives: 0.0
+True positives: 0.0
+

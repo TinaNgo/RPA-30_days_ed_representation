@@ -1,0 +1,97 @@
+Classifier: weka.classifiers.trees.REPTree
+Options: default
+Classifier build time (HH:mm:ss): 0:01:00.839533
+Evaluation time (HH:mm:ss): 4:21:45.849740
+
+
+REPTree
+============
+
+diagnosis_category = INJURY : False (1789661/303156) [894562/151422]
+diagnosis_category = INFECTION : False (400149/82548) [199860/41444]
+diagnosis_category = RESPIRATORY : False (764080/148606) [381664/74185]
+diagnosis_category = SKIN : False (418657/96464) [209687/48193]
+diagnosis_category = MSK : False (709357/129679) [354173/64752]
+diagnosis_category = NEURO : False (433147/82953) [216915/41464]
+diagnosis_category = ABDO : False (1078659/238334) [539149/119182]
+diagnosis_category = ADMIN
+|   departure_referral = specialist : False (182678/49873) [91380/25015]
+|   departure_referral = unknown : False (21820/7320) [11020/3709]
+|   departure_referral = no_referral : False (50524/16455) [25056/8156]
+|   departure_referral = ED_review : True (14370/5914) [7152/2898]
+diagnosis_category = IATROGENIC : False (21333/5666) [10531/2789]
+diagnosis_category = ENT_EYE_MOUTH : False (577841/105174) [288374/52193]
+diagnosis_category = MENTAL_HEALTH : False (283940/89076) [141922/44716]
+diagnosis_category = CARDIOVASCULAR : False (705393/130116) [353085/65238]
+diagnosis_category = HAEM_ONC
+|   departure_referral = specialist : False (65651/17112) [32885/8469]
+|   departure_referral = unknown : False (1075/371) [523/157]
+|   departure_referral = no_referral : False (2315/662) [1089/307]
+|   departure_referral = ED_review : True (1223/606) [594/264]
+diagnosis_category = SOCIAL
+|   departure_referral = specialist : False (27783/8350) [14178/4205]
+|   departure_referral = unknown : False (2398/1029) [1137/457]
+|   departure_referral = no_referral : False (10178/4228) [5018/2028]
+|   departure_referral = ED_review : True (1790/658) [977/369]
+diagnosis_category = OBS_GYNAE : False (187683/46306) [93568/22883]
+diagnosis_category = URINARY : False (342770/87598) [172211/44125]
+diagnosis_category = MEDICAL_PROCEDURE
+|   departure_referral = specialist : False (11998/4742) [5785/2316]
+|   departure_referral = unknown : False (320/119) [161/57]
+|   departure_referral = no_referral : True (3524/1699) [1828/902]
+|   departure_referral = ED_review : True (2037/409) [982/220]
+diagnosis_category = UNCLASSIFIED
+|   departure_referral = specialist : False (17313/4052) [8577/1947]
+|   departure_referral = unknown : False (947/210) [482/122]
+|   departure_referral = no_referral : False (5047/1115) [2460/555]
+|   departure_referral = ED_review : True (1991/831) [963/399]
+diagnosis_category = ORTHO/RHEUM : False (80106/22882) [40478/11736]
+diagnosis_category = TOX
+|   departure_referral = specialist : False (113770/44923) [57269/22574]
+|   departure_referral = unknown : False (4764/1661) [2394/807]
+|   departure_referral = no_referral : True (14564/7049) [7397/3538]
+|   departure_referral = ED_review : True (3371/1513) [1713/769]
+diagnosis_category = UNWELL_GENERAL : False (131935/33767) [65994/16956]
+diagnosis_category = ENDO : False (35110/8259) [17436/4095]
+diagnosis_category = NEONATAL_OTHER : False (1109/218) [557/124]
+diagnosis_category = PATIENT_CARE : False (1238/317) [610/143]
+diagnosis_category = RHEUM*&*** : False (115/21) [69/7]
+diagnosis_category = ENVIRONMENTAL : False (16/1) [10/2]
+
+Size of the tree : 51
+
+
+Correctly Classified Instances     2524508               78.9796 %
+Incorrectly Classified Instances    671899               21.0204 %
+Kappa statistic                          0.017 
+Mean absolute error                      0.3275
+Root mean squared error                  0.4047
+Relative absolute error                 98.4002 %
+Root relative squared error             99.196  %
+Total Number of Instances          3196407     
+
+AUC: 0.5716344610791729 (95% CI: 0.572 - 0.572)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.997    0.986    0.791      0.997    0.882      0.062    0.572     0.819     False
+                 0.014    0.003    0.567      0.014    0.027      0.062    0.572     0.269     True
+Weighted Avg.    0.790    0.779    0.744      0.790    0.702      0.062    0.572     0.703     
+
+[[2515286.    7038.]
+ [ 664861.    9222.]]
+
+Class 0 details
+Area under ROC: 0.5716365522034579
+False negatives: 7038.0
+True negatives: 9222.0
+False positives: 664861.0
+True positives: 2515286.0
+
+Class 1 details
+Area under ROC: 0.5716365522034579
+False negatives: 664861.0
+True negatives: 2515286.0
+False positives: 7038.0
+True positives: 9222.0
+

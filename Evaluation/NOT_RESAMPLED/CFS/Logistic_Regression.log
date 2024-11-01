@@ -1,0 +1,114 @@
+Classifier: weka.classifiers.functions.Logistic
+Options: default
+Classifier build time (HH:mm:ss): 0:15:11.407449
+Evaluation time (HH:mm:ss): 4:28:12.356197
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                          Class
+Variable                                  False
+===============================================
+departure_referral=specialist            0.1958
+departure_referral=unknown              -0.0292
+departure_referral=no_referral            0.086
+departure_referral=ED_review            -0.7709
+diagnosis_category=INJURY                0.2777
+diagnosis_category=INFECTION             0.0245
+diagnosis_category=RESPIRATORY           0.0843
+diagnosis_category=SKIN                 -0.0922
+diagnosis_category=MSK                   0.1727
+diagnosis_category=NEURO                 0.0867
+diagnosis_category=ABDO                  -0.082
+diagnosis_category=ADMIN                -0.4649
+diagnosis_category=IATROGENIC           -0.3168
+diagnosis_category=ENT_EYE_MOUTH         0.2274
+diagnosis_category=MENTAL_HEALTH        -0.5741
+diagnosis_category=CARDIOVASCULAR        0.1266
+diagnosis_category=HAEM_ONC              -0.344
+diagnosis_category=SOCIAL               -0.6698
+diagnosis_category=OBS_GYNAE            -0.2208
+diagnosis_category=URINARY              -0.2788
+diagnosis_category=MEDICAL_PROCEDURE    -1.1102
+diagnosis_category=UNCLASSIFIED         -0.2065
+diagnosis_category=ORTHO/RHEUM          -0.3674
+diagnosis_category=TOX                  -0.9775
+diagnosis_category=UNWELL_GENERAL       -0.2844
+diagnosis_category=ENDO                 -0.1756
+diagnosis_category=NEONATAL_OTHER        0.0239
+diagnosis_category=PATIENT_CARE         -0.1849
+diagnosis_category=RHEUM*&***            0.4289
+diagnosis_category=ENVIRONMENTAL         0.6511
+Intercept                                1.1899
+
+
+Odds Ratios...
+                                          Class
+Variable                                  False
+===============================================
+departure_referral=specialist            1.2163
+departure_referral=unknown               0.9712
+departure_referral=no_referral           1.0898
+departure_referral=ED_review             0.4626
+diagnosis_category=INJURY                1.3201
+diagnosis_category=INFECTION             1.0248
+diagnosis_category=RESPIRATORY           1.0879
+diagnosis_category=SKIN                   0.912
+diagnosis_category=MSK                   1.1885
+diagnosis_category=NEURO                 1.0906
+diagnosis_category=ABDO                  0.9213
+diagnosis_category=ADMIN                 0.6282
+diagnosis_category=IATROGENIC            0.7285
+diagnosis_category=ENT_EYE_MOUTH         1.2553
+diagnosis_category=MENTAL_HEALTH         0.5632
+diagnosis_category=CARDIOVASCULAR         1.135
+diagnosis_category=HAEM_ONC               0.709
+diagnosis_category=SOCIAL                0.5118
+diagnosis_category=OBS_GYNAE             0.8019
+diagnosis_category=URINARY               0.7567
+diagnosis_category=MEDICAL_PROCEDURE     0.3295
+diagnosis_category=UNCLASSIFIED          0.8135
+diagnosis_category=ORTHO/RHEUM           0.6925
+diagnosis_category=TOX                   0.3763
+diagnosis_category=UNWELL_GENERAL        0.7525
+diagnosis_category=ENDO                   0.839
+diagnosis_category=NEONATAL_OTHER        1.0242
+diagnosis_category=PATIENT_CARE          0.8312
+diagnosis_category=RHEUM*&***            1.5355
+diagnosis_category=ENVIRONMENTAL         1.9177
+
+
+
+Correctly Classified Instances     2523778               78.9567 %
+Incorrectly Classified Instances    672629               21.0433 %
+Kappa statistic                          0.0101
+Mean absolute error                      0.3255
+Root mean squared error                  0.4034
+Relative absolute error                 97.803  %
+Root relative squared error             98.8965 %
+Total Number of Instances          3196407     
+
+AUC: 0.5881014562616053 (95% CI: 0.588 - 0.588)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.998    0.992    0.790      0.998    0.882      0.049    0.588     0.826     False
+                 0.008    0.002    0.577      0.008    0.016      0.049    0.588     0.284     True
+Weighted Avg.    0.790    0.783    0.745      0.790    0.699      0.049    0.588     0.712     
+
+[[2518345.    3979.]
+ [ 668650.    5433.]]
+
+Class 0 details
+Area under ROC: 0.5881011423467551
+False negatives: 3979.0
+True negatives: 5433.0
+False positives: 668650.0
+True positives: 2518345.0
+
+Class 1 details
+Area under ROC: 0.5881011423467551
+False negatives: 668650.0
+True negatives: 2518345.0
+False positives: 3979.0
+True positives: 5433.0
+

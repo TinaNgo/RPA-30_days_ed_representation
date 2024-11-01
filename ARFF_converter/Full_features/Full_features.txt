@@ -1,0 +1,11 @@
+@attribute age {46-65,26-45,0-5,16-25,66-85,6-15,86+}
+@attribute presentation_time {'business hours',evening,night}
+@attribute sex {F,M,other}
+@attribute source_referral {self/family/friends,community_org,other,clinic,hospital}
+@attribute departure_referral {specialist,unknown,no_referral,ED_review}
+@attribute preferred_language {english,asian,'middle eastern',european,other,none}
+@attribute arrival_mode {private_vehicle,ambulance,other}
+@attribute separation_mode {admitted,released,left_against_advice,died/other}
+@attribute triage_category {two,three,four,five,one}
+@attribute diagnosis_category {INJURY,INFECTION,RESPIRATORY,SKIN,MSK,NEURO,ABDO,ADMIN,IATROGENIC,ENT_EYE_MOUTH,MENTAL_HEALTH,CARDIOVASCULAR,HAEM_ONC,SOCIAL,OBS_GYNAE,URINARY,MEDICAL_PROCEDURE,UNCLASSIFIED,ORTHO/RHEUM,TOX,UNWELL_GENERAL,ENDO,NEONATAL_OTHER,PATIENT_CARE,RHEUM*&***,ENVIRONMENTAL}
+@attribute repres30days {False,True}

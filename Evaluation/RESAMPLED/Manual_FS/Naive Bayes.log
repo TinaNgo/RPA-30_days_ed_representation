@@ -1,0 +1,108 @@
+Classifier: weka.classifiers.bayes.NaiveBayes
+Options: default
+Classifier build time (HH:mm:ss): 0:00:01.403185
+Evaluation time (HH:mm:ss): 3:46:27.769431
+
+Naive Bayes Classifier
+
+                            Class
+Attribute                   False      True
+                            (0.5)     (0.5)
+============================================
+sex
+  F                      1334636.0 1291237.0
+  M                      1361565.0 1404899.0
+  other                      133.0     198.0
+  [total]                2696334.0 2696334.0
+
+separation_mode
+  admitted                806344.0  776446.0
+  released               1792389.0 1769488.0
+  left_against_advice      90314.0  144749.0
+  died/other                7288.0    5652.0
+  [total]                2696335.0 2696335.0
+
+diagnosis_category
+  INJURY                  594661.0  454579.0
+  INFECTION               127180.0  123993.0
+  RESPIRATORY             246492.0  222792.0
+  SKIN                    129654.0  144658.0
+  MSK                     232450.0  194432.0
+  NEURO                   140335.0  124418.0
+  ABDO                    336366.0  357517.0
+  ADMIN                    74962.0  123239.0
+  IATROGENIC                6306.0    8456.0
+  ENT_EYE_MOUTH           189618.0  157368.0
+  MENTAL_HEALTH            78283.0  133793.0
+  CARDIOVASCULAR          231127.0  195355.0
+  HAEM_ONC                 20570.0   28026.0
+  SOCIAL                   11272.0   22038.0
+  OBS_GYNAE                57092.0   69190.0
+  URINARY                 102343.0  131724.0
+  MEDICAL_PROCEDURE         3751.0   12376.0
+  UNCLASSIFIED              7494.0    9726.0
+  ORTHO/RHEUM              23035.0   34619.0
+  TOX                      32435.0   84142.0
+  UNWELL_GENERAL           39338.0   50724.0
+  ENDO                     10830.0   12355.0
+  NEONATAL_OTHER             353.0     343.0
+  PATIENT_CARE               362.0     461.0
+  RHEUM*&***                  41.0      29.0
+  ENVIRONMENTAL                7.0       4.0
+  [total]                2696357.0 2696357.0
+
+age
+  46-65                   521881.0  566877.0
+  26-45                   615367.0  671771.0
+  0-5                     336129.0  263652.0
+  16-25                   354583.0  359435.0
+  66-85                   460502.0  519239.0
+  6-15                    282672.0  184483.0
+  86+                     125204.0  130881.0
+  [total]                2696338.0 2696338.0
+
+triage_category
+  two                     344627.0  318200.0
+  three                   909416.0  938925.0
+  four                   1115295.0 1033167.0
+  five                    307456.0  391404.0
+  one                      19542.0   14640.0
+  [total]                2696336.0 2696336.0
+
+
+
+
+Correctly Classified Instances     1904225               59.5739 %
+Incorrectly Classified Instances   1292182               40.4261 %
+Kappa statistic                          0.0886
+Mean absolute error                      0.4847
+Root mean squared error                  0.4928
+Relative absolute error                 96.9373 %
+Root relative squared error             98.5652 %
+Total Number of Instances          3196407     
+
+AUC: 0.5848440963708347 (95% CI: 0.585 - 0.585)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.623    0.505    0.822      0.623    0.708      0.098    0.585     0.830     False
+                 0.495    0.377    0.260      0.495    0.341      0.098    0.585     0.285     True
+Weighted Avg.    0.596    0.478    0.703      0.596    0.631      0.098    0.585     0.715     
+
+[[1570225.  952099.]
+ [ 340083.  334000.]]
+
+Class 0 details
+Area under ROC: 0.5848440472410625
+False negatives: 952099.0
+True negatives: 334000.0
+False positives: 340083.0
+True positives: 1570225.0
+
+Class 1 details
+Area under ROC: 0.5848440472410625
+False negatives: 340083.0
+True negatives: 1570225.0
+False positives: 952099.0
+True positives: 334000.0
+

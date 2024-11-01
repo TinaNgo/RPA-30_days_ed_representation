@@ -1,0 +1,99 @@
+Classifier: weka.classifiers.trees.J48
+Options: default
+Classifier build time (HH:mm:ss): 0:00:22.848614
+Evaluation time (HH:mm:ss): 4:26:09.386095
+
+J48 pruned tree
+------------------
+
+diagnosis_category = INJURY: False (2684223.0/454578.0)
+diagnosis_category = INFECTION: False (600009.0/123992.0)
+diagnosis_category = RESPIRATORY: False (1145744.0/222791.0)
+diagnosis_category = SKIN: False (628344.0/144657.0)
+diagnosis_category = MSK: False (1063530.0/194431.0)
+diagnosis_category = NEURO: False (650062.0/124417.0)
+diagnosis_category = ABDO: False (1617808.0/357516.0)
+diagnosis_category = ADMIN
+|   departure_referral = specialist: False (274058.0/74888.0)
+|   departure_referral = unknown: False (32840.0/11029.0)
+|   departure_referral = no_referral: False (75580.0/24611.0)
+|   departure_referral = ED_review: True (21522.0/8812.0)
+diagnosis_category = IATROGENIC: False (31864.0/8455.0)
+diagnosis_category = ENT_EYE_MOUTH: False (866215.0/157367.0)
+diagnosis_category = MENTAL_HEALTH: False (425862.0/133792.0)
+diagnosis_category = CARDIOVASCULAR: False (1058478.0/195354.0)
+diagnosis_category = HAEM_ONC
+|   departure_referral = specialist: False (98536.0/25581.0)
+|   departure_referral = unknown: False (1598.0/528.0)
+|   departure_referral = no_referral: False (3404.0/969.0)
+|   departure_referral = ED_review: True (1817.0/870.0)
+diagnosis_category = SOCIAL
+|   departure_referral = specialist: False (41961.0/12555.0)
+|   departure_referral = unknown: False (3535.0/1486.0)
+|   departure_referral = no_referral: False (15196.0/6256.0)
+|   departure_referral = ED_review: True (2767.0/1027.0)
+diagnosis_category = OBS_GYNAE: False (281251.0/69189.0)
+diagnosis_category = URINARY: False (514981.0/131723.0)
+diagnosis_category = MEDICAL_PROCEDURE
+|   departure_referral = specialist: False (17783.0/7058.0)
+|   departure_referral = unknown: False (481.0/176.0)
+|   departure_referral = no_referral: True (5352.0/2601.0)
+|   departure_referral = ED_review: True (3019.0/629.0)
+diagnosis_category = UNCLASSIFIED
+|   departure_referral = specialist: False (25890.0/5999.0)
+|   departure_referral = unknown: False (1429.0/332.0)
+|   departure_referral = no_referral: False (7507.0/1670.0)
+|   departure_referral = ED_review: True (2954.0/1230.0)
+diagnosis_category = ORTHO/RHEUM: False (120584.0/34618.0)
+diagnosis_category = TOX
+|   departure_referral = specialist: False (171039.0/67497.0)
+|   departure_referral = unknown: False (7158.0/2468.0)
+|   departure_referral = no_referral: True (21961.0/10587.0)
+|   departure_referral = ED_review: True (5084.0/2282.0)
+diagnosis_category = UNWELL_GENERAL: False (197929.0/50723.0)
+diagnosis_category = ENDO: False (52546.0/12354.0)
+diagnosis_category = NEONATAL_OTHER: False (1666.0/342.0)
+diagnosis_category = PATIENT_CARE: False (1848.0/460.0)
+diagnosis_category = RHEUM*&***: False (184.0/28.0)
+diagnosis_category = ENVIRONMENTAL: False (26.0/3.0)
+
+Number of Leaves  : 	44
+
+Size of the tree : 	51
+
+
+
+Correctly Classified Instances     2524508               78.9796 %
+Incorrectly Classified Instances    671899               21.0204 %
+Kappa statistic                          0.017 
+Mean absolute error                      0.3275
+Root mean squared error                  0.4047
+Relative absolute error                 98.4002 %
+Root relative squared error             99.196  %
+Total Number of Instances          3196407     
+
+AUC: 0.5716304910425477 (95% CI: 0.572 - 0.572)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.997    0.986    0.791      0.997    0.882      0.062    0.572     0.819     False
+                 0.014    0.003    0.567      0.014    0.027      0.062    0.572     0.269     True
+Weighted Avg.    0.790    0.779    0.744      0.790    0.702      0.062    0.572     0.703     
+
+[[2515286.    7038.]
+ [ 664861.    9222.]]
+
+Class 0 details
+Area under ROC: 0.5716365522034579
+False negatives: 7038.0
+True negatives: 9222.0
+False positives: 664861.0
+True positives: 2515286.0
+
+Class 1 details
+Area under ROC: 0.5716365522034579
+False negatives: 664861.0
+True negatives: 2515286.0
+False positives: 7038.0
+True positives: 9222.0
+

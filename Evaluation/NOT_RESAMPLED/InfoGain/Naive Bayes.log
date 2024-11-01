@@ -1,0 +1,109 @@
+Classifier: weka.classifiers.bayes.NaiveBayes
+Options: default
+Classifier build time (HH:mm:ss): 0:00:06.002965
+Evaluation time (HH:mm:ss): 4:48:02.772279
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                     False        True
+                             (0.79)      (0.21)
+================================================
+diagnosis_category
+  INJURY                   2229646.0    454579.0
+  INFECTION                 476018.0    123993.0
+  RESPIRATORY               922954.0    222792.0
+  SKIN                      483688.0    144658.0
+  MSK                       869100.0    194432.0
+  NEURO                     525646.0    124418.0
+  ABDO                     1260293.0    357517.0
+  ADMIN                     280763.0    123239.0
+  IATROGENIC                 23410.0      8456.0
+  ENT_EYE_MOUTH             708849.0    157368.0
+  MENTAL_HEALTH             292071.0    133793.0
+  CARDIOVASCULAR            863125.0    195355.0
+  HAEM_ONC                   77331.0     28026.0
+  SOCIAL                     41423.0     22038.0
+  OBS_GYNAE                 212063.0     69190.0
+  URINARY                   383259.0    131724.0
+  MEDICAL_PROCEDURE          14261.0     12376.0
+  UNCLASSIFIED               28056.0      9726.0
+  ORTHO/RHEUM                85967.0     34619.0
+  TOX                       121102.0     84142.0
+  UNWELL_GENERAL            147207.0     50724.0
+  ENDO                       40193.0     12355.0
+  NEONATAL_OTHER              1325.0       343.0
+  PATIENT_CARE                1389.0       461.0
+  RHEUM*&***                   157.0        29.0
+  ENVIRONMENTAL                 24.0         4.0
+  [total]                 1.008932E7   2696357.0
+
+departure_referral
+  specialist               8846969.0   2216673.0
+  unknown                   336059.0    109008.0
+  no_referral               621623.0    191328.0
+  ED_review                 284647.0    179326.0
+  [total]                1.0089298E7   2696335.0
+
+age
+  46-65                    1953779.0    566877.0
+  26-45                    2299523.0    671771.0
+  0-5                      1256271.0    263652.0
+  16-25                    1327455.0    359435.0
+  66-85                    1726206.0    519239.0
+  6-15                     1057472.0    184483.0
+  86+                       468595.0    130881.0
+  [total]                1.0089301E7   2696338.0
+
+triage_category
+  two                      1289724.0    318200.0
+  three                    3404206.0    938925.0
+  four                     4172361.0   1033167.0
+  five                     1150064.0    391404.0
+  one                        72944.0     14640.0
+  [total]                1.0089299E7   2696336.0
+
+separation_mode
+  admitted                 3017454.0    776446.0
+  released                 6705650.0   1769488.0
+  left_against_advice       338839.0    144749.0
+  died/other                 27355.0      5652.0
+  [total]                1.0089298E7   2696335.0
+
+
+
+
+Correctly Classified Instances     2522833               78.9272 %
+Incorrectly Classified Instances    673574               21.0728 %
+Kappa statistic                          0.0229
+Mean absolute error                      0.3232
+Root mean squared error                  0.4027
+Relative absolute error                 97.0958 %
+Root relative squared error             98.7148 %
+Total Number of Instances          3196407     
+
+AUC: 0.596778300533133 (95% CI: 0.597 - 0.597)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.995    0.980    0.792      0.995    0.882      0.067    0.597     0.834     False
+                 0.020    0.005    0.510      0.020    0.038      0.067    0.597     0.298     True
+Weighted Avg.    0.789    0.774    0.732      0.789    0.704      0.067    0.597     0.721     
+
+[[2509361.   12963.]
+ [ 660611.   13472.]]
+
+Class 0 details
+Area under ROC: 0.5967817399302245
+False negatives: 12963.0
+True negatives: 13472.0
+False positives: 660611.0
+True positives: 2509361.0
+
+Class 1 details
+Area under ROC: 0.5967817399302245
+False negatives: 660611.0
+True negatives: 2509361.0
+False positives: 12963.0
+True positives: 13472.0
+

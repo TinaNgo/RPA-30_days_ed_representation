@@ -1,0 +1,144 @@
+Classifier: weka.classifiers.functions.Logistic
+Options: default
+Classifier build time (HH:mm:ss): 0:06:54.592649
+Evaluation time (HH:mm:ss): 4:41:36.161574
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                          Class
+Variable                                  False
+===============================================
+sex=F                                    0.0447
+sex=M                                   -0.0447
+sex=other                               -0.2852
+separation_mode=admitted                 0.0975
+separation_mode=released                -0.0235
+separation_mode=left_against_advice     -0.3736
+separation_mode=died/other               0.2545
+diagnosis_category=INJURY                 0.261
+diagnosis_category=INFECTION            -0.0364
+diagnosis_category=RESPIRATORY            0.049
+diagnosis_category=SKIN                 -0.1055
+diagnosis_category=MSK                   0.2146
+diagnosis_category=NEURO                  0.142
+diagnosis_category=ABDO                 -0.0801
+diagnosis_category=ADMIN                -0.3316
+diagnosis_category=IATROGENIC           -0.2292
+diagnosis_category=ENT_EYE_MOUTH         0.1925
+diagnosis_category=MENTAL_HEALTH        -0.5345
+diagnosis_category=CARDIOVASCULAR        0.2182
+diagnosis_category=HAEM_ONC             -0.2644
+diagnosis_category=SOCIAL               -0.5669
+diagnosis_category=OBS_GYNAE            -0.2398
+diagnosis_category=URINARY              -0.1992
+diagnosis_category=MEDICAL_PROCEDURE    -0.9835
+diagnosis_category=UNCLASSIFIED         -0.1726
+diagnosis_category=ORTHO/RHEUM          -0.0722
+diagnosis_category=TOX                  -0.8914
+diagnosis_category=UNWELL_GENERAL       -0.1825
+diagnosis_category=ENDO                 -0.1347
+diagnosis_category=NEONATAL_OTHER       -0.0717
+diagnosis_category=PATIENT_CARE         -0.1222
+diagnosis_category=RHEUM*&***             0.283
+diagnosis_category=ENVIRONMENTAL          0.739
+age=46-65                               -0.0852
+age=26-45                               -0.0324
+age=0-5                                  0.2253
+age=16-25                                 0.022
+age=66-85                               -0.1857
+age=6-15                                 0.3799
+age=86+                                 -0.1689
+triage_category=two                      0.0585
+triage_category=three                   -0.0141
+triage_category=four                     0.0476
+triage_category=five                    -0.1443
+triage_category=one                      0.2739
+Intercept                               -0.0073
+
+
+Odds Ratios...
+                                          Class
+Variable                                  False
+===============================================
+sex=F                                    1.0457
+sex=M                                    0.9563
+sex=other                                0.7519
+separation_mode=admitted                 1.1025
+separation_mode=released                 0.9768
+separation_mode=left_against_advice      0.6883
+separation_mode=died/other               1.2898
+diagnosis_category=INJURY                1.2982
+diagnosis_category=INFECTION             0.9643
+diagnosis_category=RESPIRATORY           1.0502
+diagnosis_category=SKIN                  0.8999
+diagnosis_category=MSK                   1.2394
+diagnosis_category=NEURO                 1.1526
+diagnosis_category=ABDO                   0.923
+diagnosis_category=ADMIN                 0.7178
+diagnosis_category=IATROGENIC            0.7951
+diagnosis_category=ENT_EYE_MOUTH         1.2122
+diagnosis_category=MENTAL_HEALTH          0.586
+diagnosis_category=CARDIOVASCULAR        1.2438
+diagnosis_category=HAEM_ONC              0.7676
+diagnosis_category=SOCIAL                0.5673
+diagnosis_category=OBS_GYNAE             0.7868
+diagnosis_category=URINARY               0.8194
+diagnosis_category=MEDICAL_PROCEDURE      0.374
+diagnosis_category=UNCLASSIFIED          0.8415
+diagnosis_category=ORTHO/RHEUM           0.9303
+diagnosis_category=TOX                   0.4101
+diagnosis_category=UNWELL_GENERAL        0.8332
+diagnosis_category=ENDO                  0.8739
+diagnosis_category=NEONATAL_OTHER        0.9308
+diagnosis_category=PATIENT_CARE           0.885
+diagnosis_category=RHEUM*&***            1.3271
+diagnosis_category=ENVIRONMENTAL         2.0939
+age=46-65                                0.9183
+age=26-45                                0.9682
+age=0-5                                  1.2527
+age=16-25                                1.0222
+age=66-85                                0.8306
+age=6-15                                 1.4622
+age=86+                                  0.8446
+triage_category=two                      1.0602
+triage_category=three                     0.986
+triage_category=four                     1.0488
+triage_category=five                     0.8656
+triage_category=one                       1.315
+
+
+
+Correctly Classified Instances     1913133               59.8526 %
+Incorrectly Classified Instances   1283274               40.1474 %
+Kappa statistic                          0.0942
+Mean absolute error                      0.4864
+Root mean squared error                  0.4926
+Relative absolute error                 97.281  %
+Root relative squared error             98.5165 %
+Total Number of Instances          3196407     
+
+AUC: 0.5877186261215331 (95% CI: 0.588 - 0.588)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.625    0.499    0.824      0.625    0.711      0.104    0.588     0.830     False
+                 0.501    0.375    0.263      0.501    0.345      0.104    0.588     0.290     True
+Weighted Avg.    0.599    0.473    0.706      0.599    0.633      0.104    0.588     0.716     
+
+[[1575496.  946828.]
+ [ 336446.  337637.]]
+
+Class 0 details
+Area under ROC: 0.5877196586875748
+False negatives: 946828.0
+True negatives: 337637.0
+False positives: 336446.0
+True positives: 1575496.0
+
+Class 1 details
+Area under ROC: 0.5877196586875748
+False negatives: 336446.0
+True negatives: 1575496.0
+False positives: 946828.0
+True positives: 337637.0
+

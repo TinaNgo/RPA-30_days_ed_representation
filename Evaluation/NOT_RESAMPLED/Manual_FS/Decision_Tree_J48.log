@@ -1,0 +1,294 @@
+Classifier: weka.classifiers.trees.J48
+Options: default
+Classifier build time (HH:mm:ss): 0:01:48.733498
+Evaluation time (HH:mm:ss): 4:26:23.722915
+
+J48 pruned tree
+------------------
+
+diagnosis_category = INJURY: False (2684223.0/454578.0)
+diagnosis_category = INFECTION: False (600009.0/123992.0)
+diagnosis_category = RESPIRATORY: False (1145744.0/222791.0)
+diagnosis_category = SKIN: False (628344.0/144657.0)
+diagnosis_category = MSK: False (1063530.0/194431.0)
+diagnosis_category = NEURO: False (650062.0/124417.0)
+diagnosis_category = ABDO: False (1617808.0/357516.0)
+diagnosis_category = ADMIN: False (404000.0/123238.0)
+diagnosis_category = IATROGENIC: False (31864.0/8455.0)
+diagnosis_category = ENT_EYE_MOUTH: False (866215.0/157367.0)
+diagnosis_category = MENTAL_HEALTH
+|   separation_mode = admitted: False (161812.0/43023.0)
+|   separation_mode = released: False (242362.0/79212.0)
+|   separation_mode = left_against_advice
+|   |   age = 46-65
+|   |   |   sex = F
+|   |   |   |   triage_category = two: True (174.0/66.0)
+|   |   |   |   triage_category = three: True (881.0/425.0)
+|   |   |   |   triage_category = four: False (642.0/301.0)
+|   |   |   |   triage_category = five: False (109.0/53.0)
+|   |   |   |   triage_category = one: False (4.0/2.0)
+|   |   |   sex = M: True (2750.0/997.0)
+|   |   |   sex = other: False (1.0)
+|   |   age = 26-45: True (9813.0/4238.0)
+|   |   age = 0-5: False (25.0/8.0)
+|   |   age = 16-25
+|   |   |   triage_category = two: True (552.0/226.0)
+|   |   |   triage_category = three: False (2466.0/1188.0)
+|   |   |   triage_category = four: False (1800.0/728.0)
+|   |   |   triage_category = five
+|   |   |   |   sex = F: False (98.0/47.0)
+|   |   |   |   sex = M: True (100.0/48.0)
+|   |   |   |   sex = other: False (0.0)
+|   |   |   triage_category = one: False (12.0/5.0)
+|   |   age = 66-85
+|   |   |   sex = F: False (247.0/119.0)
+|   |   |   sex = M: True (299.0/105.0)
+|   |   |   sex = other: True (0.0)
+|   |   age = 6-15: False (725.0/257.0)
+|   |   age = 86+: False (33.0/8.0)
+|   separation_mode = died/other
+|   |   age = 46-65: False (137.0/29.0)
+|   |   age = 26-45
+|   |   |   sex = F: False (146.0/54.0)
+|   |   |   sex = M
+|   |   |   |   triage_category = two: False (39.0/16.0)
+|   |   |   |   triage_category = three: True (176.0/87.0)
+|   |   |   |   triage_category = four: True (72.0/27.0)
+|   |   |   |   triage_category = five: False (15.0/7.0)
+|   |   |   |   triage_category = one: False (8.0/2.0)
+|   |   |   sex = other: False (0.0)
+|   |   age = 0-5: True (1.0)
+|   |   age = 16-25: False (167.0/39.0)
+|   |   age = 66-85: False (55.0/21.0)
+|   |   age = 6-15
+|   |   |   sex = F: True (101.0/35.0)
+|   |   |   sex = M: False (28.0/5.0)
+|   |   |   sex = other: True (0.0)
+|   |   age = 86+: False (12.0/3.0)
+diagnosis_category = CARDIOVASCULAR: False (1058478.0/195354.0)
+diagnosis_category = HAEM_ONC: False (105355.0/28025.0)
+diagnosis_category = SOCIAL
+|   age = 46-65
+|   |   separation_mode = admitted: False (1629.0/535.0)
+|   |   separation_mode = released
+|   |   |   sex = F: False (3559.0/1511.0)
+|   |   |   sex = M
+|   |   |   |   triage_category = two: False (149.0/62.0)
+|   |   |   |   triage_category = three: False (601.0/263.0)
+|   |   |   |   triage_category = four: True (1237.0/588.0)
+|   |   |   |   triage_category = five: True (2313.0/1089.0)
+|   |   |   |   triage_category = one: False (3.0)
+|   |   |   sex = other: True (1.0)
+|   |   separation_mode = left_against_advice
+|   |   |   sex = F
+|   |   |   |   triage_category = two: True (12.0/3.0)
+|   |   |   |   triage_category = three: False (185.0/76.0)
+|   |   |   |   triage_category = four: False (623.0/254.0)
+|   |   |   |   triage_category = five: True (176.0/82.0)
+|   |   |   |   triage_category = one: False (0.0)
+|   |   |   sex = M
+|   |   |   |   triage_category = two: True (27.0/10.0)
+|   |   |   |   triage_category = three: True (205.0/94.0)
+|   |   |   |   triage_category = four: False (664.0/324.0)
+|   |   |   |   triage_category = five: True (259.0/118.0)
+|   |   |   |   triage_category = one: False (2.0/1.0)
+|   |   |   sex = other: True (1.0)
+|   |   separation_mode = died/other: False (20.0/5.0)
+|   age = 26-45
+|   |   triage_category = two: False (817.0/275.0)
+|   |   triage_category = three: False (3562.0/1317.0)
+|   |   triage_category = four
+|   |   |   sex = F: False (2951.0/1115.0)
+|   |   |   sex = M
+|   |   |   |   separation_mode = admitted: False (207.0/83.0)
+|   |   |   |   separation_mode = released: True (2152.0/922.0)
+|   |   |   |   separation_mode = left_against_advice: False (972.0/383.0)
+|   |   |   |   separation_mode = died/other: True (13.0/5.0)
+|   |   |   sex = other: False (0.0)
+|   |   triage_category = five
+|   |   |   separation_mode = admitted: False (223.0/89.0)
+|   |   |   separation_mode = released: True (5275.0/2134.0)
+|   |   |   separation_mode = left_against_advice
+|   |   |   |   sex = F: False (199.0/72.0)
+|   |   |   |   sex = M: True (356.0/173.0)
+|   |   |   |   sex = other: False (0.0)
+|   |   |   separation_mode = died/other: True (21.0/3.0)
+|   |   triage_category = one: False (66.0/18.0)
+|   age = 0-5: False (10028.0/1761.0)
+|   age = 16-25: False (8408.0/2609.0)
+|   age = 66-85: False (8701.0/2799.0)
+|   age = 6-15: False (4721.0/903.0)
+|   age = 86+: False (3121.0/755.0)
+diagnosis_category = OBS_GYNAE: False (281251.0/69189.0)
+diagnosis_category = URINARY: False (514981.0/131723.0)
+diagnosis_category = MEDICAL_PROCEDURE
+|   separation_mode = admitted: False (2693.0/434.0)
+|   separation_mode = released
+|   |   age = 46-65
+|   |   |   triage_category = two: False (24.0/5.0)
+|   |   |   triage_category = three: False (160.0/71.0)
+|   |   |   triage_category = four: False (923.0/432.0)
+|   |   |   triage_category = five: True (6211.0/2649.0)
+|   |   |   triage_category = one: True (0.0)
+|   |   age = 26-45
+|   |   |   triage_category = two: False (23.0/6.0)
+|   |   |   triage_category = three: False (163.0/62.0)
+|   |   |   triage_category = four: False (999.0/441.0)
+|   |   |   triage_category = five
+|   |   |   |   sex = F: False (2669.0/1288.0)
+|   |   |   |   sex = M: True (2359.0/1115.0)
+|   |   |   |   sex = other: True (0.0)
+|   |   |   triage_category = one: False (6.0)
+|   |   age = 0-5: False (634.0/166.0)
+|   |   age = 16-25: False (1976.0/649.0)
+|   |   age = 66-85
+|   |   |   triage_category = two: False (19.0/1.0)
+|   |   |   triage_category = three: False (127.0/36.0)
+|   |   |   triage_category = four
+|   |   |   |   sex = F: False (318.0/146.0)
+|   |   |   |   sex = M: True (360.0/176.0)
+|   |   |   |   sex = other: False (0.0)
+|   |   |   triage_category = five: True (5131.0/2193.0)
+|   |   |   triage_category = one: False (1.0)
+|   |   age = 6-15: False (694.0/184.0)
+|   |   age = 86+
+|   |   |   triage_category = two: False (12.0)
+|   |   |   triage_category = three: False (30.0/11.0)
+|   |   |   triage_category = four: False (106.0/34.0)
+|   |   |   triage_category = five
+|   |   |   |   sex = F: False (257.0/106.0)
+|   |   |   |   sex = M: True (346.0/133.0)
+|   |   |   |   sex = other: True (0.0)
+|   |   |   triage_category = one: False (2.0)
+|   separation_mode = left_against_advice: False (281.0/112.0)
+|   separation_mode = died/other
+|   |   age = 46-65: False (18.0/1.0)
+|   |   age = 26-45: False (8.0/2.0)
+|   |   age = 0-5: False (2.0)
+|   |   age = 16-25: True (1.0)
+|   |   age = 66-85
+|   |   |   triage_category = two: False (8.0)
+|   |   |   triage_category = three: False (3.0)
+|   |   |   triage_category = four: True (8.0/3.0)
+|   |   |   triage_category = five: True (44.0/5.0)
+|   |   |   triage_category = one: False (5.0)
+|   |   age = 6-15
+|   |   |   sex = F: True (2.0)
+|   |   |   sex = M: False (2.0)
+|   |   |   sex = other: False (0.0)
+|   |   age = 86+: False (10.0)
+diagnosis_category = UNCLASSIFIED: False (37780.0/9725.0)
+diagnosis_category = ORTHO/RHEUM: False (120584.0/34618.0)
+diagnosis_category = TOX
+|   triage_category = two: False (42732.0/11443.0)
+|   triage_category = three: False (73323.0/20968.0)
+|   triage_category = four
+|   |   age = 46-65
+|   |   |   sex = F
+|   |   |   |   separation_mode = admitted: False (883.0/298.0)
+|   |   |   |   separation_mode = released: False (1939.0/683.0)
+|   |   |   |   separation_mode = left_against_advice: True (260.0/118.0)
+|   |   |   |   separation_mode = died/other: False (10.0/2.0)
+|   |   |   sex = M
+|   |   |   |   separation_mode = admitted: False (1710.0/717.0)
+|   |   |   |   separation_mode = released: True (3933.0/1915.0)
+|   |   |   |   separation_mode = left_against_advice: True (509.0/188.0)
+|   |   |   |   separation_mode = died/other: False (1.0)
+|   |   |   sex = other: True (1.0)
+|   |   age = 26-45
+|   |   |   separation_mode = admitted: False (2743.0/1063.0)
+|   |   |   separation_mode = released
+|   |   |   |   sex = F: False (4273.0/2040.0)
+|   |   |   |   sex = M: True (8557.0/3503.0)
+|   |   |   |   sex = other: True (0.0)
+|   |   |   separation_mode = left_against_advice: False (1002.0/434.0)
+|   |   |   separation_mode = died/other
+|   |   |   |   sex = F: True (22.0/9.0)
+|   |   |   |   sex = M: False (22.0/9.0)
+|   |   |   |   sex = other: False (0.0)
+|   |   age = 0-5: False (2207.0/225.0)
+|   |   age = 16-25: False (9912.0/2063.0)
+|   |   age = 66-85: False (2354.0/752.0)
+|   |   age = 6-15: False (1586.0/238.0)
+|   |   age = 86+: False (309.0/63.0)
+|   triage_category = five
+|   |   age = 46-65
+|   |   |   separation_mode = admitted: False (295.0/119.0)
+|   |   |   separation_mode = released: True (10257.0/860.0)
+|   |   |   separation_mode = left_against_advice: True (197.0/77.0)
+|   |   |   separation_mode = died/other: False (6.0/2.0)
+|   |   age = 26-45
+|   |   |   separation_mode = admitted: False (289.0/106.0)
+|   |   |   separation_mode = released: True (24167.0/1926.0)
+|   |   |   separation_mode = left_against_advice: False (273.0/133.0)
+|   |   |   separation_mode = died/other
+|   |   |   |   sex = F: True (191.0/2.0)
+|   |   |   |   sex = M: False (3.0/1.0)
+|   |   |   |   sex = other: True (0.0)
+|   |   age = 0-5: False (276.0/24.0)
+|   |   age = 16-25
+|   |   |   separation_mode = admitted: False (79.0/27.0)
+|   |   |   separation_mode = released
+|   |   |   |   sex = F: False (632.0/262.0)
+|   |   |   |   sex = M: True (1536.0/664.0)
+|   |   |   |   sex = other: True (0.0)
+|   |   |   separation_mode = left_against_advice: False (142.0/31.0)
+|   |   |   separation_mode = died/other: False (1.0)
+|   |   age = 66-85
+|   |   |   sex = F: False (188.0/75.0)
+|   |   |   sex = M
+|   |   |   |   separation_mode = admitted: False (40.0/11.0)
+|   |   |   |   separation_mode = released: True (413.0/138.0)
+|   |   |   |   separation_mode = left_against_advice: False (15.0/3.0)
+|   |   |   |   separation_mode = died/other: True (0.0)
+|   |   |   sex = other: True (0.0)
+|   |   age = 6-15: False (197.0/19.0)
+|   |   age = 86+: False (84.0/34.0)
+|   triage_category = one: False (7673.0/1653.0)
+diagnosis_category = UNWELL_GENERAL: False (197929.0/50723.0)
+diagnosis_category = ENDO: False (52546.0/12354.0)
+diagnosis_category = NEONATAL_OTHER: False (1666.0/342.0)
+diagnosis_category = PATIENT_CARE: False (1848.0/460.0)
+diagnosis_category = RHEUM*&***: False (184.0/28.0)
+diagnosis_category = ENVIRONMENTAL: False (26.0/3.0)
+
+Number of Leaves  : 	194
+
+Size of the tree : 	246
+
+
+
+Correctly Classified Instances     2531724               79.2053 %
+Incorrectly Classified Instances    664683               20.7947 %
+Kappa statistic                          0.0332
+Mean absolute error                      0.3256
+Root mean squared error                  0.4035
+Relative absolute error                 97.8343 %
+Root relative squared error             98.9076 %
+Total Number of Instances          3196407     
+
+AUC: 0.5723245495499659 (95% CI: 0.572 - 0.572)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.997    0.976    0.793      0.997    0.883      0.103    0.572     0.819     False
+                 0.024    0.003    0.703      0.024    0.047      0.103    0.572     0.279     True
+Weighted Avg.    0.792    0.771    0.774      0.792    0.707      0.103    0.572     0.705     
+
+[[2515441.    6883.]
+ [ 657800.   16283.]]
+
+Class 0 details
+Area under ROC: 0.5723163379297223
+False negatives: 6883.0
+True negatives: 16283.0
+False positives: 657800.0
+True positives: 2515441.0
+
+Class 1 details
+Area under ROC: 0.5723163379297223
+False negatives: 657800.0
+True negatives: 2515441.0
+False positives: 6883.0
+True positives: 16283.0
+

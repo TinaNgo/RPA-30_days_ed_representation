@@ -1,0 +1,46 @@
+Classifier: weka.classifiers.trees.RandomForest
+Options: default
+Classifier build time (HH:mm:ss): 0:22:57.327657
+Evaluation time (HH:mm:ss): 4:28:50.846179
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+
+Correctly Classified Instances     2524508               78.9796 %
+Incorrectly Classified Instances    671899               21.0204 %
+Kappa statistic                          0.017 
+Mean absolute error                      0.325 
+Root mean squared error                  0.4031
+Relative absolute error                 97.6619 %
+Root relative squared error             98.8225 %
+Total Number of Instances          3196407     
+
+AUC: 0.5890856016056024 (95% CI: 0.589 - 0.589)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.997    0.986    0.791      0.997    0.882      0.062    0.589     0.827     False
+                 0.014    0.003    0.567      0.014    0.027      0.062    0.589     0.287     True
+Weighted Avg.    0.790    0.779    0.744      0.790    0.702      0.062    0.589     0.713     
+
+[[2515286.    7038.]
+ [ 664861.    9222.]]
+
+Class 0 details
+Area under ROC: 0.5890866386074217
+False negatives: 7038.0
+True negatives: 9222.0
+False positives: 664861.0
+True positives: 2515286.0
+
+Class 1 details
+Area under ROC: 0.5890866386074217
+False negatives: 664861.0
+True negatives: 2515286.0
+False positives: 7038.0
+True positives: 9222.0
+

@@ -1,0 +1,1 @@
+find . -type f -name "*.log" -exec cp {} results \;

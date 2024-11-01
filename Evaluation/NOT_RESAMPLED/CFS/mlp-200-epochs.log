@@ -1,0 +1,89 @@
+Classifier: weka.classifiers.functions.MultilayerPerceptron
+Options: -H 1 -N 200
+Classifier build time (HH:mm:ss): 0:46:17.746174
+Evaluation time (HH:mm:ss): 4:18:01.739678
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    0.6933866783044892
+    Node 2    1.0844957976129537
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.6933866783044895
+    Node 2    -1.0844957976129534
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.024641453186350578
+    Attrib departure_referral=specialist    4.794922832619407
+    Attrib departure_referral=unknown    1.4683372835025592
+    Attrib departure_referral=no_referral    2.94217917447412
+    Attrib departure_referral=ED_review    -9.274223902364565
+    Attrib diagnosis_category=INJURY    5.855591385421594
+    Attrib diagnosis_category=INFECTION    1.9643706894491928
+    Attrib diagnosis_category=RESPIRATORY    11.14916303877878
+    Attrib diagnosis_category=SKIN    -0.07301099523706409
+    Attrib diagnosis_category=MSK    4.051517271808298
+    Attrib diagnosis_category=NEURO    2.8490939794521126
+    Attrib diagnosis_category=ABDO    0.31415208596904587
+    Attrib diagnosis_category=ADMIN    -3.7578957253725624
+    Attrib diagnosis_category=IATROGENIC    -2.064253857749817
+    Attrib diagnosis_category=ENT_EYE_MOUTH    7.70922082377027
+    Attrib diagnosis_category=MENTAL_HEALTH    -5.37836562429453
+    Attrib diagnosis_category=CARDIOVASCULAR    4.775671571170865
+    Attrib diagnosis_category=HAEM_ONC    -2.771215941186527
+    Attrib diagnosis_category=SOCIAL    -4.858796750673725
+    Attrib diagnosis_category=OBS_GYNAE    -0.8539307666925338
+    Attrib diagnosis_category=URINARY    -1.9649599603679933
+    Attrib diagnosis_category=MEDICAL_PROCEDURE    -10.911211794337992
+    Attrib diagnosis_category=UNCLASSIFIED    0.9294442273919515
+    Attrib diagnosis_category=ORTHO/RHEUM    -2.1714263315380915
+    Attrib diagnosis_category=TOX    -11.546772545597076
+    Attrib diagnosis_category=UNWELL_GENERAL    -2.4729267338692345
+    Attrib diagnosis_category=ENDO    0.11530838897555014
+    Attrib diagnosis_category=NEONATAL_OTHER    3.086342566415361
+    Attrib diagnosis_category=PATIENT_CARE    -0.00867698178110553
+    Attrib diagnosis_category=RHEUM*&***    4.612849162571177
+    Attrib diagnosis_category=ENVIRONMENTAL    1.7272871742824552
+Class False
+    Input
+    Node 0
+Class True
+    Input
+    Node 1
+
+
+
+Correctly Classified Instances     2522324               78.9112 %
+Incorrectly Classified Instances    674083               21.0888 %
+Kappa statistic                          0     
+Mean absolute error                      0.2994
+Root mean squared error                  0.4075
+Relative absolute error                 89.9494 %
+Root relative squared error             99.8903 %
+Total Number of Instances          3196407     
+
+AUC: 0.5814454581536042 (95% CI: 0.581 - 0.581)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.789      1.000    0.882      ?        0.581     0.819     False
+                 0.000    0.000    ?          0.000    ?          ?        0.581     0.282     True
+Weighted Avg.    0.789    0.789    ?          0.789    ?          ?        0.581     0.706     
+
+[[2522324.       0.]
+ [ 674083.       0.]]
+
+Class 0 details
+Area under ROC: 0.5814424660590547
+False negatives: 0.0
+True negatives: 0.0
+False positives: 674083.0
+True positives: 2522324.0
+
+Class 1 details
+Area under ROC: 0.5814424660590547
+False negatives: 674083.0
+True negatives: 2522324.0
+False positives: 0.0
+True positives: 0.0
+

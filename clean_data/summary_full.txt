@@ -1,0 +1,106 @@
+repres30days     false     true       All
+age                                      
+0-5            1570280   329596   1899876
+16-25          1659166   448865   2108031
+26-45          2872698   839605   3712303
+46-65          2443989   708656   3152645
+6-15           1321997   230486   1552483
+66-85          2158107   649155   2807262
+86+             585381   164051    749432
+All           12611618  3370414  15982032 
+
+repres30days          false     true       All
+presentation_time                             
+business hours      6900141  1807049   8707190
+evening             3770036  1010674   4780710
+night               1941441   552691   2494132
+All                12611618  3370414  15982032 
+
+repres30days     false     true       All
+sex                                      
+F              6241878  1614640   7856518
+M              6369136  1755532   8124668
+other              604      242       846
+All           12611618  3370414  15982032 
+
+repres30days            false     true       All
+source_referral                                 
+clinic                 785626   209038    994664
+community_org          213824    92357    306181
+hospital               133041    37445    170486
+other                 1539192   423534   1962726
+self/family/friends   9939935  2608040  12547975
+All                  12611618  3370414  15982032 
+
+repres30days           false     true       All
+departure_referral                             
+ED_review             356028   224030    580058
+no_referral           777625   239477   1017102
+specialist          11058060  2770584  13828644
+unknown               419905   136323    556228
+All                 12611618  3370414  15982032 
+
+repres30days           false     true       All
+preferred_language                             
+asian                 387209    71575    458784
+english             10927386  2964513  13891899
+european              658260   170753    829013
+middle eastern        245811    62001    307812
+none                   40659     7783     48442
+other                 352293    93789    446082
+All                 12611618  3370414  15982032 
+
+repres30days        false     true       All
+arrival_mode                                
+ambulance         2683267   807152   3490419
+other              596644   178539    775183
+private_vehicle   9331707  2384723  11716430
+All              12611618  3370414  15982032 
+
+repres30days            false     true       All
+separation_mode                                 
+admitted              3772594   970768   4743362
+died/other              34196     7117     41313
+left_against_advice    423256   181034    604290
+released              8381572  2211495  10593067
+All                  12611618  3370414  15982032 
+
+repres30days        false     true       All
+triage_category                             
+five              1438696   489212   1927908
+four              5215465  1291699   6507164
+one                 90934    18190    109124
+three             4254290  1174148   5428438
+two               1612233   397165   2009398
+All              12611618  3370414  15982032 
+
+repres30days           false     true       All
+diagnosis_category                             
+ABDO                 1576326   447141   2023467
+ADMIN                 350428   154004    504432
+CARDIOVASCULAR       1079450   244042   1323492
+ENDO                   50461    15559     66020
+ENT_EYE_MOUTH         885444   196762   1082206
+ENVIRONMENTAL             28        5        33
+HAEM_ONC               96762    35078    131840
+IATROGENIC             29246    10619     39865
+INFECTION             594002   154946    748948
+INJURY               2788266   568383   3356649
+MEDICAL_PROCEDURE      17801    15518     33319
+MENTAL_HEALTH         365065   167128    532193
+MSK                  1086900   242929   1329829
+NEONATAL_OTHER          1662      422      2084
+NEURO                 656335   155578    811913
+OBS_GYNAE             264978    86634    351612
+ORTHO/RHEUM           107736    43194    150930
+PATIENT_CARE            1740      578      2318
+RESPIRATORY          1152999   278382   1431381
+RHEUM*&***               195       35       230
+SKIN                  604727   180450    785177
+SOCIAL                 51757    27515     79272
+TOX                   151305   105238    256543
+UNCLASSIFIED           35205    12190     47395
+UNWELL_GENERAL        184031    63534    247565
+URINARY               478769   164550    643319
+All                 12611618  3370414  15982032 
+

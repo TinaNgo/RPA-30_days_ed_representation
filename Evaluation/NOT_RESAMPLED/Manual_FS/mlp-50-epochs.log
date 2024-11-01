@@ -1,0 +1,104 @@
+Classifier: weka.classifiers.functions.MultilayerPerceptron
+Options: -H 1 -N 50
+Classifier build time (HH:mm:ss): 0:15:22.807723
+Evaluation time (HH:mm:ss): 4:17:59.115924
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    1.0159767649578921
+    Node 2    0.7327180859766613
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.0159767649578915
+    Node 2    -0.7327180859766611
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    1.8922447197029673
+    Attrib sex=F    4.038577291206413
+    Attrib sex=M    -3.5724490309330017
+    Attrib sex=other    -2.3873461580675803
+    Attrib separation_mode=admitted    29.880278391952384
+    Attrib separation_mode=released    -5.003853596175311
+    Attrib separation_mode=left_against_advice    -34.28975907780178
+    Attrib separation_mode=died/other    5.572070960412857
+    Attrib diagnosis_category=INJURY    13.747461789718587
+    Attrib diagnosis_category=INFECTION    1.4352688402125655
+    Attrib diagnosis_category=RESPIRATORY    10.404503187966705
+    Attrib diagnosis_category=SKIN    -3.296442986767106
+    Attrib diagnosis_category=MSK    17.39711964079732
+    Attrib diagnosis_category=NEURO    18.974932223747007
+    Attrib diagnosis_category=ABDO    3.9101558808443673
+    Attrib diagnosis_category=ADMIN    -12.680654185472552
+    Attrib diagnosis_category=IATROGENIC    -4.798798969074808
+    Attrib diagnosis_category=ENT_EYE_MOUTH    44.60254484372651
+    Attrib diagnosis_category=MENTAL_HEALTH    -35.48708839645872
+    Attrib diagnosis_category=CARDIOVASCULAR    14.846515315373216
+    Attrib diagnosis_category=HAEM_ONC    -8.21434588147345
+    Attrib diagnosis_category=SOCIAL    -19.565522253730098
+    Attrib diagnosis_category=OBS_GYNAE    1.9679804671711596
+    Attrib diagnosis_category=URINARY    -2.5304661562430253
+    Attrib diagnosis_category=MEDICAL_PROCEDURE    -17.02693474027683
+    Attrib diagnosis_category=UNCLASSIFIED    0.6058432898636747
+    Attrib diagnosis_category=ORTHO/RHEUM    -17.39109543344249
+    Attrib diagnosis_category=TOX    -48.22394661390857
+    Attrib diagnosis_category=UNWELL_GENERAL    -7.6863251485843325
+    Attrib diagnosis_category=ENDO    -0.9160706842789325
+    Attrib diagnosis_category=NEONATAL_OTHER    0.700768373377146
+    Attrib diagnosis_category=PATIENT_CARE    5.067590120590793
+    Attrib diagnosis_category=RHEUM*&***    1.6003117004599394
+    Attrib diagnosis_category=ENVIRONMENTAL    -1.8685019628127533
+    Attrib age=46-65    -17.00392298115655
+    Attrib age=26-45    -13.733174694222198
+    Attrib age=0-5    42.187833161905054
+    Attrib age=16-25    -6.0108480159683095
+    Attrib age=66-85    -23.724646151257534
+    Attrib age=6-15    39.40372170262819
+    Attrib age=86+    -30.429798952901596
+    Attrib triage_category=two    -3.907806041254106
+    Attrib triage_category=three    -9.34849762803751
+    Attrib triage_category=four    -10.413565309160207
+    Attrib triage_category=five    -17.574293056153167
+    Attrib triage_category=one    35.643790925927256
+Class False
+    Input
+    Node 0
+Class True
+    Input
+    Node 1
+
+
+
+Correctly Classified Instances     2522324               78.9112 %
+Incorrectly Classified Instances    674083               21.0888 %
+Kappa statistic                          0     
+Mean absolute error                      0.3015
+Root mean squared error                  0.4075
+Relative absolute error                 90.5977 %
+Root relative squared error             99.9029 %
+Total Number of Instances          3196407     
+
+AUC: 0.5672884496753718 (95% CI: 0.567 - 0.567)
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.789      1.000    0.882      ?        0.567     0.814     False
+                 0.000    0.000    ?          0.000    ?          ?        0.567     0.266     True
+Weighted Avg.    0.789    0.789    ?          0.789    ?          ?        0.567     0.698     
+
+[[2522324.       0.]
+ [ 674083.       0.]]
+
+Class 0 details
+Area under ROC: 0.5672912155244192
+False negatives: 0.0
+True negatives: 0.0
+False positives: 674083.0
+True positives: 2522324.0
+
+Class 1 details
+Area under ROC: 0.567295838663672
+False negatives: 674083.0
+True negatives: 2522324.0
+False positives: 0.0
+True positives: 0.0
+
